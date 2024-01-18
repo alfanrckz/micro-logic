@@ -71,7 +71,7 @@ const Grid = () => {
         <Box
           bg="blue.700"
           height="180px"
-          bgImage="url('')"
+          bgImage="url('/word.png')"
           bgPosition="center"
           bgRepeat="no-repeat"
           bgSize="cover"
@@ -83,7 +83,7 @@ const Grid = () => {
           _hover={{transform: "scale(1.55)", transition:".6s", borderColor:"blue.400"}}
         >
            
-          <Link href="">
+          <Link href="/word">
             <Button
               bg="blue.900"
             
@@ -155,16 +155,20 @@ const Grid = () => {
         <Box
           bg="blue.700"
           height="180px"
-          bgImage="url('')"
+          bgImage="url('/count.png')"
           bgPosition="center"
           bgRepeat="no-repeat"
           bgSize="cover"
           px="10px"
           cursor="pointer"
-          _hover={{transform: "scale(1.55)", transition:".6s", borderColor:"white"}}
+          borderWidth="2px"
+          borderStyle="solid"
+          borderColor="blue.900"
+          
+          _hover={{transform: "scale(1.55)", transition:".6s", borderColor:"blue.400", borderWidth: "2px", borderStyle: "solid"}}
         >
            
-          <Link href="">
+          <Link href="/count">
             <Button
               bg="blue.900"
             
@@ -177,7 +181,7 @@ const Grid = () => {
               Launch
             </Button>
           </Link>
-          <Text ml="1">Currency Convert</Text>
+          <Text ml="1">Count Duration</Text>
         </Box>
         <Box
           bg="blue.700"
