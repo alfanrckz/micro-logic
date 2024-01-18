@@ -9,7 +9,7 @@ const Grid = () => {
         <Box
           bg="blue.700"
           height="180px"
-          bgImage="url('/ml.png')"
+          bgImage="url('/ml2.png')"
           bgPosition="center"
           bgRepeat="no-repeat"
           objectFit="cover"
@@ -26,7 +26,7 @@ const Grid = () => {
             <Button
               bg="blue.900"
               ml="4px"
-              mt="90px"
+              mt="120px"
               h="25px"
               variant="outline"
               fontSize="small"
@@ -35,7 +35,7 @@ const Grid = () => {
             </Button>
             
           </Link>
-          <Text ml="1" fontSize="sm">Search for heroes in Mobile Legends</Text>
+          <Text ml="1" fontSize="">Mobile Legends</Text>
         </Box>
         <Box
           bg="blue.700"
@@ -58,7 +58,7 @@ const Grid = () => {
               bg="blue.900"
             
               ml="4px"
-              mt="90px"
+              mt="120px"
               h="25px"
               variant="outline"
               fontSize="small"
@@ -70,22 +70,25 @@ const Grid = () => {
         </Box>
         <Box
           bg="blue.700"
-          height="160px"
-          bgImage="url('/1.png')"
+          height="180px"
+          bgImage="url('')"
           bgPosition="center"
           bgRepeat="no-repeat"
           bgSize="cover"
           px="10px"
           cursor="pointer"
-          _hover={{transform: "scale(1.55)", transition:".6s", borderColor:"white"}}
+          borderWidth="2px"
+          borderStyle="solid"
+          borderColor="blue.900"
+          _hover={{transform: "scale(1.55)", transition:".6s", borderColor:"blue.400"}}
         >
            
-          <Link href="/tictactoe">
+          <Link href="">
             <Button
               bg="blue.900"
             
               ml="4px"
-              mt="90px"
+              mt="120px"
               h="25px"
               variant="outline"
               fontSize="small"
@@ -93,12 +96,12 @@ const Grid = () => {
               Launch
             </Button>
           </Link>
-          <Text ml="1">Tic Tac Toe</Text>
+          <Text ml="1">Word Scrumb</Text>
         </Box>
         <Box
           bg="blue.700"
-          height="160px"
-          bgImage="url('/1.png')"
+          height="180px"
+          bgImage="url('')"
           bgPosition="center"
           bgRepeat="no-repeat"
           bgSize="cover"
@@ -107,12 +110,12 @@ const Grid = () => {
           _hover={{transform: "scale(1.55)", transition:".6s", borderColor:"white"}}
         >
            
-          <Link href="/tictactoe">
+          <Link href="">
             <Button
               bg="blue.900"
             
               ml="4px"
-              mt="90px"
+              mt="120px"
               h="25px"
               variant="outline"
               fontSize="small"
@@ -120,12 +123,12 @@ const Grid = () => {
               Launch
             </Button>
           </Link>
-          <Text ml="1">Tic Tac Toe</Text>
+          <Text ml="1">Matching Card</Text>
         </Box>
         <Box
           bg="blue.700"
-          height="160px"
-          bgImage="url('/1.png')"
+          height="180px"
+          bgImage="url('')"
           bgPosition="center"
           bgRepeat="no-repeat"
           bgSize="cover"
@@ -134,12 +137,12 @@ const Grid = () => {
           _hover={{transform: "scale(1.55)", transition:".6s", borderColor:"white"}}
         >
            
-          <Link href="/tictactoe">
+          <Link href="">
             <Button
               bg="blue.900"
             
               ml="4px"
-              mt="90px"
+              mt="120px"
               h="25px"
               variant="outline"
               fontSize="small"
@@ -147,12 +150,12 @@ const Grid = () => {
               Launch
             </Button>
           </Link>
-          <Text ml="1">Tic Tac Toe</Text>
+          <Text ml="1">Salary Calculating</Text>
         </Box>
         <Box
           bg="blue.700"
-          height="160px"
-          bgImage="url('/1.png')"
+          height="180px"
+          bgImage="url('')"
           bgPosition="center"
           bgRepeat="no-repeat"
           bgSize="cover"
@@ -161,12 +164,12 @@ const Grid = () => {
           _hover={{transform: "scale(1.55)", transition:".6s", borderColor:"white"}}
         >
            
-          <Link href="/tictactoe">
+          <Link href="">
             <Button
               bg="blue.900"
             
               ml="4px"
-              mt="90px"
+              mt="120px"
               h="25px"
               variant="outline"
               fontSize="small"
@@ -174,12 +177,12 @@ const Grid = () => {
               Launch
             </Button>
           </Link>
-          <Text ml="1">Tic Tac Toe</Text>
+          <Text ml="1">Currency Convert</Text>
         </Box>
         <Box
           bg="blue.700"
-          height="160px"
-          bgImage="url('/1.png')"
+          height="180px"
+          bgImage="url('')"
           bgPosition="center"
           bgRepeat="no-repeat"
           bgSize="cover"
@@ -188,12 +191,12 @@ const Grid = () => {
           _hover={{transform: "scale(1.55)", transition:".6s", borderColor:"white"}}
         >
            
-          <Link href="/tictactoe">
+          <Link href="">
             <Button
               bg="blue.900"
             
               ml="4px"
-              mt="90px"
+              mt="120px"
               h="25px"
               variant="outline"
               fontSize="small"
@@ -201,7 +204,7 @@ const Grid = () => {
               Launch
             </Button>
           </Link>
-          <Text ml="1">Tic Tac Toe</Text>
+          <Text ml="1">Curency Convert</Text>
         </Box>
 
      
