@@ -101,16 +101,19 @@ const Grid = () => {
         <Box
           bg="blue.700"
           height="180px"
-          bgImage="url('')"
+          bgImage="url('/matching.png')"
           bgPosition="center"
           bgRepeat="no-repeat"
           bgSize="cover"
           px="10px"
           cursor="pointer"
-          _hover={{transform: "scale(1.55)", transition:".6s", borderColor:"white"}}
+          borderWidth="2px"
+          borderStyle="solid"
+          borderColor="blue.900"
+          _hover={{transform: "scale(1.55)", transition:".6s", borderColor:"blue.400"}}
         >
            
-          <Link href="">
+          <Link href="/matchingcard">
             <Button
               bg="blue.900"
             
@@ -186,16 +189,19 @@ const Grid = () => {
         <Box
           bg="blue.700"
           height="180px"
-          bgImage="url('')"
+          bgImage="url('currency.png')"
           bgPosition="center"
           bgRepeat="no-repeat"
           bgSize="cover"
           px="10px"
           cursor="pointer"
-          _hover={{transform: "scale(1.55)", transition:".6s", borderColor:"white"}}
+          borderWidth="2px"
+          borderStyle="solid"
+          borderColor="blue.900"
+          _hover={{transform: "scale(1.55)", transition:".6s", borderColor:"blue.400"}}
         >
            
-          <Link href="">
+          <Link href="/currency">
             <Button
               bg="blue.900"
             
