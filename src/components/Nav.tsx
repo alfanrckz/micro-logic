@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <Box bg="transparent" p={4} color="white">
+      <Box bg="transparent" p={4}>
         <Flex>
           <Heading size="md">Alfanrckz</Heading>
           <Spacer />

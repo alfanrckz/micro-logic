@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { Container, useColorMode, Button, Heading, Flex, Center,  } from '@chakra-ui/react'
 import Grid from '../components/Grid'
 import Navbar from '@/components/Nav'
+import Footer from '@/components/Footer'
 
 
 
@@ -26,6 +27,7 @@ export default function Home() {
           </Center>
           </Flex>
           <Grid/>
+          <Footer/>
         </Container>
       </main>
     </>
